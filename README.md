@@ -1,4 +1,4 @@
-My resume based on [Sourabh Bajaj's resume]{https://github.com/sb2nov/resume}
+My resume based on [Sourabh Bajaj's resume](https://github.com/sb2nov/resume)
 
 ### to use Makefile
 ```sh
