@@ -4,7 +4,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,12pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -96,15 +96,17 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University of Florida}{Gainesville, FL}
+      {University of Florida}{Gainesville, Florida}
       {Master of Science in Computer Engineering;  GPA: 3.83}{Jan. 2019 -- Dec. 2020}
-      
+
+      % add courses
       \begingroup
       \scriptsize
       \begin{tabular*}{\textwidth}{lr@{\hspace{8pt}} l}
-        Courses & (Spring 2019):&  Advanced Data Structures, Analysis of Algorithms, Math for Intelligent Systems;\\& (Fall 2019): &Machine Learning, Programming Language Principle, Computer Architect Principle;\\& (Spring 2020):& Embedded Systems, Advanced Systems Programming, Reconfigurable Computing.
+        Courses & (Spring 2019):&  Advanced Data Structures, Analysis of Algorithms, Math for Intelligent Systems;\\& (Fall 2019): &Machine Learning, Programming Language Principle, Computer Architect Principle;\\& (Spring 2020):& Embedded Systems, Advanced System Programming, Reconfigurable Computing.
       \end{tabular*}
       \endgroup
+      
     \resumeSubheading
       {China University of Petroleum}{Beijing, China}
       {Master of Science in Computer Science \& Engineering;  GPA: 8.4/10.0}{Sept. 2009 -- July. 2012}
@@ -119,8 +121,8 @@
   \begingroup
   %\setlength{\tabcolsep}{10pt} 
   \begin{tabular*}{\textwidth}{l@{\hspace{8pt}} l}
-  Programming Languages: & (Proficient) Python, C/C++; (Familiar): Java, Javascript, Go, Rust, VHDL \\
-  Frameworks and tools: & Git, Tenserflow, \LaTeX, Flask, Angular, Bootstrap, OpenStack
+  Programming Languages: & (Proficient) Python, C/C++, Java; (Familiar): Javascript, Go, Rust, SQL, VHDL \\
+  Frameworks and tools: & Git, Tenserflow, \LaTeX, Flask, Angular, Bootstrap, OpenStack, Nagios, D3.js
   \end{tabular*}
   \endgroup
 %-----------EXPERIENCE-----------------
@@ -151,44 +153,18 @@
       {Elex Technology}{Beijing, China}
       {Software/System Engineer}{Jan 2012 - April 2016}
       \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        %% \resumeItem{Nostos}
-        %%   {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        %% \resumeItem{Workflows}
-        %%   {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        %% \resumeItem{Data Collection}
-        %%   {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
-        %% \resumeItem{Dev Environment}
-        %%   {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        %% \resumeItem{Data Warehousing}
-        %%   {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        %% \resumeItem{Recommendations}
-        %%   {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        %% \resumeItem{Content Discovery}
-        %%   {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        %% \resumeItem{Course Dashboards}
-        %%   {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+        \resumeItem{Notifications}{Service for sending email and SMS notifications. Involved in features such as monitoring and alert tracking, change management, emergency response etc.}
+        \resumeItem{Hardware Management}{Created models (MySQL) and tools for IT asset and project portfolio management. Flask (Python backend) and AngularJS (frontend) for a web application used by both on-call team and develop team.}
+
+        \resumeItem{IT Budget and Audit}{Generate monthly IT cost report. Paylog auditing system for financial team.}
+        \resumeItem{OpenStack cluster}{Build and maintain a cluster that supporting different developer groups.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
+      { Petropark Co., Ltd}{Beijing, China}
+      {Software Engineering Intern}{Sept. 2010 - Dec. 2011}
       \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
-      \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+        \resumeItem{Linux Adminstrator}{Java programming and environment management on openSUSE.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -197,14 +173,12 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+    \resumeSubItem{Red-black tree}{C++ implementation for class: Advanced Data structure. }
+    \resumeSubItem{Lua interpreter(subset)}{Java implementation for class: Programming Language Principle.}
+    \resumeSubItem{Cache Timing and Meltdown attack}{For class: Computer Architecture Principle.}
+    \resumeSubItem{Machine learn model (VAE and GAN) training}{Tensorflow based implementation on a subset of VGG2 dataset, for class: Machine Learning.}
+    \resumeSubItem{Wechat jump(mini game) bot}{A python script using OpenCV object dectection and Android ADB.}
+    \resumeSubItem{Archlinux Setup}{Blog that gives instructions on Archlinux installation and develop environment setting up on Dell XPS 15 9560.}
   \resumeSubHeadingListEnd
 
 %
